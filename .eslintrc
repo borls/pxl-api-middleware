@@ -1,0 +1,31 @@
+{
+  "root": true,
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "mocha": true,
+    "node": true,
+    "es6": true
+  },
+  "globals": {
+    "process": false
+  },
+  "rules": {
+    "max-len": [2, 130],
+    "indent": [
+      1,
+      4,
+      { "SwitchCase": 1 }
+    ],
+    "comma-dangle": [
+      2,
+      "never"
+    ],
+    "one-var": [
+      0
+    ]
+  }
+}

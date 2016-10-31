@@ -1,0 +1,6 @@
+--recursive
+--compilers js:babel-core/register
+--require ./test/mochaHelper
+--reporter spec
+--ui bdd
+--growl
